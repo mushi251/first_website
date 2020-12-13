@@ -12,7 +12,8 @@ img {
 }*/
 
 #section1 {
-  height: 600px;
+  /* height: 600px; */
+  overflow: hidden;
 }
 
 #section2 {
@@ -34,7 +35,6 @@ i {
 .socials{
   padding: 16px;
   text-decoration: none;
-  color = rgb(0,0,0);
 }
 
 .dark {
