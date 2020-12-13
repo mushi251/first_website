@@ -39,6 +39,7 @@ i {
 .dark {
   background:black;
   color: white;
+  transition: all 500ms ease;
 }
 
 .fa-linkedin {
