@@ -25,7 +25,7 @@ img {
 
 /*
 i {
-  color: rgb(0, 0, 0);
+  </div>
 } 
 #linkedin {
   color:  rgb(0, 0, 0);
@@ -33,6 +33,7 @@ i {
 
 .socials {
   padding: 16px 16px;
+  color:  rgb(0, 0, 0);
 }
 
 .dark {
