@@ -31,6 +31,9 @@ i {
   color:  rgb(0, 0, 0);
 }  */
 
+.socials{
+  padding: 16px;
+}
 
 .dark {
   background:black;
@@ -38,7 +41,7 @@ i {
   transition: all 500ms ease;
 }
 
-.fa-linkedin {
+.fa-github {
   color: rgb(59, 91, 152);
 }
 
