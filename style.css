@@ -6,9 +6,10 @@ body {
   background: linear-gradient(to right, #ffefba, #ffffff);
 }
 
+/*
 img {
   height: 200px;
-}
+}*/
 
 #section1 {
   height: 600px;
@@ -22,13 +23,14 @@ img {
   height: 100px;
 }
 
+/*
 i {
   color: rgb(0, 0, 0);
-}
-
+} 
 #linkedin {
   color:  rgb(0, 0, 0);
-}
+}  */
+
 .socials {
   padding: 16px 16px;
 }
