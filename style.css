@@ -22,7 +22,6 @@ img {
   height: 100px;
 }
 
-
 i {
   color: rgb(0, 0, 0)
 }
@@ -33,10 +32,6 @@ i {
 
 .dark {
   background:black;
-  color: white
-}
-
-.dark > a {
   color: white
 }
 
