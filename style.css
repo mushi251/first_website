@@ -23,16 +23,19 @@ img {
 }
 
 i {
-  color: rgb(0, 0, 0)
+  color: rgb(0, 0, 0);
 }
 
+#linkedin {
+  color:  rgb(0, 0, 0);
+}
 .socials {
-  padding: 16px 16px
+  padding: 16px 16px;
 }
 
 .dark {
   background:black;
-  color: white
+  color: white;
 }
 
 .form {
