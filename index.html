@@ -1,45 +1,132 @@
-<!DOCTYPE html>
 <html>
 
 <head>
-	<title>Musaab's Website</title>
+	<title>Musaab Siddiqui</title>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
   <link href="style.css" rel="stylesheet" type="text/css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
 </head>
 
 <body>
+  <!-- Navigation bar -->
+<ul class="nav_bar">
+        <li class="nav_bar_outer">
+          <nav class = "nav_bar_inner>
+            <div class="theme-switch-wrapper">
+              <label class="theme-switch" for="checkbox">
+                <input type="checkbox" id="checkbox" />
+                  <div class="slider round"></div>
+              </label>
+            </div>
+          </nav> 
+        </li>
+      <li class="nav_bar_outer">
+        <a href="#contact" class="nav_bar_inner">Contact</a>
+      </li>
+      <li class="nav_bar_outer">
+        <a href="#blog" class="nav_bar_inner">Blog</a>
+      </li>
+      <li class="nav_bar_outer">
+        <a href="#projects" class="nav_bar_inner">Projects</a>
+      </li>
+      <li class="nav_bar_outer">
+          <a href="#myskills" class="nav_bar_inner">My Skills</a>
+      </li>
+      <li class="nav_bar_outer">
+          <a href="#about" class="nav_bar_inner">About</a>
+        </li>
+    </ul>
 
-<div class = "main" id="section1">
-  <img src = "https://media.tenor.com/images/5eb9f9c51e714244911f954b1cf07beb/tenor.gif" />
-  <h1> M. Musaab Siddiqui </h1>
-  <h4> Student, Researcher, Programmer</h4>
-  <br>
-  <br>
-  <h2>Hello.</h2>
-  <p> I am a 3rd year student at the university of Waterloo working towards a degree in Nanotechnology Engineering. 
-    This website serves to provide a glimpse of me, my hobbies, projects and random events that I choose to share. </p>
-  <a href="#section2">My Skills</a>
-  <a href="#section3">Contact Me</a>
+<!-- Header container -->
+<div class="main_title">
+      Hi, I'm Musaab.
+    </div>
+
+<div class="summary">
+      I am a Student, Researcher, Programmer.
+    </div>
+
+
+<div class="divider">
+    </div>
+
+<!-- *******************About Container************************* -->
+
+<div class="about_section" id="about">
+  <div class="section_title">
+        About
+  </div>
+    <div class="section_description">
+        Hi. My name is Musaab Siddiqui. I am a 3rd year student at the university of Waterloo working towards a degree in Nanotechnology Engineering. 
+        This website serves to provide a glimpse of me, my hobbies, projects and random events that I choose to share.
+        <br><br>
+      
+        I am usually comfortable with every software project I have worked with and am very passionate to learn something new.
+        <br></br>
+        DISCLAIMER: That beautiful portait is not of me. I need to add one soon.
+    </div>
+      <div class="section_picture">
+        <img src="twitter-etsy.jpg" class="picture">
+      </div>
 </div>
 
-<hr>
+    <div class="divider">
+    </div>
 
-<div class = "main" id="section2">
-  <h2> My Skills </h2>
-  <br>
-  <h3>To be added </div>
+<!-- *******************Skills Container************************* -->
 
-<hr>
+    <div class="section" id="myskills">
+      <div class="section_title">
+        My Skills
+      </div>
+      <div class="section_description">
+        To be added.
+      </div>
+    </div>
 
-<div class = "main" id="section3">
-  <a href= "contact.html">Contact Me</a>
-  <a href= "https://github.com/mushi251" target = "_blank", class= "socials"><i id="github" class = "fab fa-github"></i></a> 
+    <div class="divider">
+    </div>
+
+<!-- *******************Projects Container************************* -->
+    <div class="section" id="projects">
+      <div class="section_title">
+        Projects
+      </div>
+      <div class="section_description">
+        To be added.
+      </div>
+    </div>
+
+    <div class="divider">
+      </div>
+
+
+<!-- *******************Contact Me Container************************* -->
+    <div class="contact_section" id="contact">
+      <div class="contact_section_title">
+        Contact Me
+      </div>
+      <div class="section_social_media">
+        <div class="social_media">
+          <a href = "mailto: mm4siddi@uwaterloo.ca"><i class="fas fa-envelope fa-2x"></i></a>
+        </div>
+        <div class="social_media">
+          <a href= "https://github.com/mushi251" target = "_blank" ><i id="github" class = "fab fa-github fa-2x"></i></a>
+        </div>
+        <div class="social_media">
+          <a href= "https://www.linkedin.com/in/musaabsiddiqui/" target = "_blank">
+          <i class="fab fa-linkedin fa-2x"></i></a>
+        </div>
+        <div class="social_media">
+          <a href= "https://open.spotify.com/user/22okbp7tvi6vvudocpyluy57i?si=8-bmke9aRQmcXLJ2ig_uAw" target = "_blank">
+          <i class="fab fa-spotify fa-2x"></i></a>
+        </div>
+    </div>
 </div>
+
 <script src="script.js">
 </script>
-<!-- ^ where we link our JS file to our webpage (we don't need to worry about this for now!) -->
-</body>
 
+</body>
 </html>
